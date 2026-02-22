@@ -1,0 +1,145 @@
+Build a professional web-based application called:
+
+"Smart Hackathon Management & Problem Statement Generation System"
+
+The platform should be designed from a COLLEGE ADMIN perspective (not student perspective). It should help colleges efficiently conduct hackathons by generating problem statements and managing the complete hackathon lifecycle.
+
+-----------------------------------------
+WEBSITE PURPOSE
+-----------------------------------------
+The system should allow colleges to:
+- Generate unique hackathon problem statements
+- Create and publish hackathon events
+- Manage team registrations
+- Track submissions
+- Evaluate projects
+- Generate leaderboard results
+
+-----------------------------------------
+PAGES REQUIRED
+-----------------------------------------
+
+1) LANDING PAGE
+- Project Title: Smart Hackathon Management & Problem Statement Generation System
+- Tagline: Automating Hackathon Management for Colleges
+- Short description explaining how the system digitizes hackathon planning
+- Features section
+- Button: "Go to Admin Dashboard"
+- Professional modern UI design
+
+2) ADMIN LOGIN PAGE (Demo)
+- Username field
+- Password field
+- Login button
+- No real authentication required (demo login allowed)
+
+3) ADMIN DASHBOARD
+Display:
+- Total Hackathons Conducted
+- Total Registered Teams
+- Total Submissions
+- Active Events
+Use dummy statistics.
+
+Include sidebar navigation:
+- Dashboard
+- Create Hackathon
+- Team Management
+- Evaluation
+- Logout
+
+4) CREATE HACKATHON PAGE
+Admin should be able to:
+- Enter Hackathon Name
+- Select Domain:
+  • Artificial Intelligence
+  • Healthcare
+  • FinTech
+  • Education
+  • Sustainability
+- Select Difficulty Level:
+  • Beginner
+  • Intermediate
+  • Advanced
+- Set Deadline
+- Click “Generate Problem Statement”
+- Click “Publish Hackathon”
+
+5) PROBLEM STATEMENT GENERATOR MODULE
+When domain + difficulty are selected, generate structured output:
+- Problem Title
+- Problem Description
+- Background Context
+- Expected Solution Approach
+- Constraints
+- Suggested Tech Stack
+- Future Scope
+
+Use predefined dataset with random selection (no real AI required).
+
+6) TEAM MANAGEMENT PAGE
+Display table with:
+- Team Name
+- Members
+- Selected Problem
+- Submission Status
+- View Submission button
+- Approve / Reject options
+Use mock data.
+
+7) EVALUATION PAGE
+Allow admin/judge to:
+- View team submissions
+- Score based on:
+  • Innovation (0–10)
+  • Technical Feasibility (0–10)
+  • Real-World Impact (0–10)
+  • Presentation (0–10)
+- Auto-calculate total score
+- Display leaderboard
+
+-----------------------------------------
+FUNCTIONAL REQUIREMENTS
+-----------------------------------------
+- Generate structured problem statements
+- Categorize by domain and difficulty
+- Store event data (local storage or mock database)
+- Display clean analytics dashboard
+- Enable scoring and result generation
+
+-----------------------------------------
+NON-FUNCTIONAL REQUIREMENTS
+-----------------------------------------
+- Responsive design
+- Clean professional UI
+- Fast loading
+- Scalable structure
+- Modular component design
+
+-----------------------------------------
+UI DESIGN REQUIREMENTS
+-----------------------------------------
+- Modern admin panel style
+- Sidebar layout
+- Card-based dashboard
+- Professional color theme (blue/white or dark theme)
+- Clean typography
+
+-----------------------------------------
+ADD PROFESSIONAL TERMINOLOGY IN UI
+-----------------------------------------
+Include phrases like:
+- AI-Driven Ideation Engine
+- Structured Evaluation Framework
+- Centralized Hackathon Lifecycle Management
+- Innovation Diversity Control System
+
+-----------------------------------------
+EXPECTED OUTCOME
+-----------------------------------------
+The platform should demonstrate how colleges can:
+- Reduce hackathon planning time
+- Avoid repetitive themes
+- Digitize event execution
+- Improve transparency in evaluation
+- Conduct structured and scalable hackathons
