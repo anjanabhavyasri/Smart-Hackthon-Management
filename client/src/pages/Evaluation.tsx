@@ -2,6 +2,7 @@ import { SidebarLayout } from "@/components/layout/Sidebar";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
+import { Label } from "@/components/ui/label";
 import { Trophy, Code2, Lightbulb, Presentation, ArrowRight, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
