@@ -62,9 +62,7 @@ export function SidebarLayout({ children }: { children: React.ReactNode }) {
             const Icon = item.icon;
             
             return (
-              <Link key={item.href} href={item.href}>
-                <a 
-                  className={`
+              <Link key={item.href} href={item.href} className={`
                     flex items-center gap-3 px-3 py-2.5 rounded-md transition-all duration-200 group
                     ${isActive 
                       ? 'bg-sidebar-accent text-sidebar-accent-foreground font-medium' 
@@ -74,18 +72,15 @@ export function SidebarLayout({ children }: { children: React.ReactNode }) {
                 >
                   <Icon className={`h-5 w-5 ${isActive ? 'text-blue-400' : 'text-sidebar-foreground/50 group-hover:text-sidebar-foreground/80'}`} />
                   {item.label}
-                </a>
               </Link>
             );
           })}
         </nav>
 
         <div className="p-4 border-t border-sidebar-border/50">
-          <Link href="/">
-            <a className="flex items-center gap-3 px-3 py-2.5 rounded-md text-sidebar-foreground/70 hover:bg-destructive/10 hover:text-destructive transition-all duration-200 w-full group">
+          <Link href="/" className="flex items-center gap-3 px-3 py-2.5 rounded-md text-sidebar-foreground/70 hover:bg-destructive/10 hover:text-destructive transition-all duration-200 w-full group">
               <LogOut className="h-5 w-5 group-hover:text-destructive" />
               Logout
-            </a>
           </Link>
         </div>
       </aside>
